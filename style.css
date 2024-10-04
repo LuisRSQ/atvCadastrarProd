@@ -8,17 +8,17 @@
         justify-content: center;
         align-items: center;
         }
-    /* Definindo a classe para estilizar o texto */
+    
     .texto-estilizado {
-        color: #2E8B57; /* Cor verde escuro */
-        font-size: 16px; /* Tamanho da fonte */
-        font-family: Arial, sans-serif; /* Fonte */
-        letter-spacing: 1px; /* Espaçamento entre letras */
-        font-weight: bold; /* Negrito */
+        color: #2E8B57; 
+        font-size: 16px; 
+        font-family: Arial, sans-serif;
+        letter-spacing: 1px; 
+        font-weight: bold; 
         text-align: center;
     }
 
-    /* Exemplo de estilo para o formulário, se necessário */
+    
     body {
         background-color: #f4f4f4;
         font-family: Arial, sans-serif;
