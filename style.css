@@ -1,0 +1,55 @@
+
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+    /* Definindo a classe para estilizar o texto */
+    .texto-estilizado {
+        color: #2E8B57; /* Cor verde escuro */
+        font-size: 16px; /* Tamanho da fonte */
+        font-family: Arial, sans-serif; /* Fonte */
+        letter-spacing: 1px; /* Espaçamento entre letras */
+        font-weight: bold; /* Negrito */
+        text-align: center;
+    }
+
+    /* Exemplo de estilo para o formulário, se necessário */
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        width: 300px;
+        margin: auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    input[type="text"], input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+        background-color: #2E8B57;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #246a45;
+    }
+    
